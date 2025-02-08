@@ -17,7 +17,7 @@ const ChatBot = () => {
 
     // Fetch bot response from the given URL
     try {
-      const response = await fetch("http://13.60.45.204:8888/response", {
+      const response = await fetch("http://13.60.45.204:8008/response", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
