@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# Dependency directories
+.babelrc
+.history/
+
+# Generated files
+build/
+dist/
+
+# Temporary files
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Mac OS and system-specific files
+Thumbs.db
+*.iml
+
+# Coverage directory for testing tools
+coverage/
+
+# Service worker cache
+public/service-worker.js
+
+# TypeScript declarations
+*.d.ts
+
+# Misc
+*.lock
+*.bak
+*.orig
